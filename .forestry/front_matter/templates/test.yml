@@ -2,7 +2,7 @@
 label: Test
 hide_body: false
 fields:
-- name: body
+- name: title
   type: textarea
   default: ''
   config:
@@ -10,6 +10,6 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: Body
+  label: Title
 pages:
 - test.md
